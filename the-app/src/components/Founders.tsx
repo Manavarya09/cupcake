@@ -192,7 +192,7 @@ export function Founders() {
             Built with purpose, for real people
           </h2>
           <p className="team-sub reveal" ref={subRef}>
-            We built Thea for the 2.2 billion people with vision impairment who deserve independent access to the web. Thea assists — it never decides. Every important action requires your explicit confirmation, and you can cancel at any time. Built at the Claude AI Hackathon: Machines of Loving Grace.
+            We built cupcake for the 2.2 billion people with vision impairment who deserve independent access to the web. cupcake assists — it never decides. Every important action requires your explicit confirmation, and you can cancel at any time. Built at the Claude AI Hackathon: Machines of Loving Grace.
           </p>
 
           <div className="team-grid reveal" ref={gridRef}>

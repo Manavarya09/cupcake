@@ -23,7 +23,7 @@ const features: FeatureData[] = [
   {
     delay: 0,
     title: 'Web Page Understanding',
-    desc: 'Thea reads any web page and describes it in plain language. Menus, buttons, text, images \u2014 nothing is hidden, even on poorly built sites.',
+    desc: 'cupcake reads any web page and describes it in plain language. Menus, buttons, text, images \u2014 nothing is hidden, even on poorly built sites.',
     icon: (
       <svg className="feature-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <rect x="8" y="4" width="32" height="40" rx="3" />
@@ -52,7 +52,7 @@ const features: FeatureData[] = [
   {
     delay: 160,
     title: 'Smart Form Filling',
-    desc: 'Thea identifies form fields across any app or website and fills them for you, even when labels are missing or poorly coded.',
+    desc: 'cupcake identifies form fields across any app or website and fills them for you, even when labels are missing or poorly coded.',
     icon: (
       <svg className="feature-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <rect x="8" y="4" width="32" height="40" rx="3" />
@@ -80,7 +80,7 @@ const features: FeatureData[] = [
   {
     delay: 80,
     title: 'Intent-Based Actions',
-    desc: 'Speak your goal, not commands. "Find me a train to London tomorrow morning" — Thea navigates, searches, and reads back your options.',
+    desc: 'Speak your goal, not commands. "Find me a train to London tomorrow morning" — cupcake navigates, searches, and reads back your options.',
     icon: (
       <svg className="feature-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <circle cx="24" cy="24" r="20" />
@@ -93,7 +93,7 @@ const features: FeatureData[] = [
   {
     delay: 160,
     title: 'You Stay in Control',
-    desc: 'Thea executes your intent \u2014 it never acts alone on irreversible tasks. Payments, form submissions, account changes always require your explicit confirmation first.',
+    desc: 'cupcake executes your intent \u2014 it never acts alone on irreversible tasks. Payments, form submissions, account changes always require your explicit confirmation first.',
     icon: (
       <svg className="feature-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <path d="M24 4L6 14v12c0 11 8 18 18 22 10-4 18-11 18-22V14L24 4z" />

@@ -35,12 +35,12 @@ export function Problem() {
                 The result: blind and low-vision users spend 3&ndash;5× longer on tasks sighted users complete in seconds. Online banking, job applications, healthcare portals — entire workflows become impossible.
               </p>
               <p>
-                Claude AI can now understand web pages, reason about their content, and take action. We built Thea to put that power directly in the hands of the people who need it most — while keeping them in full control.
+                Claude AI can now understand web pages, reason about their content, and take action. We built cupcake to put that power directly in the hands of the people who need it most — while keeping them in full control.
               </p>
             </div>
           </div>
 
-          {/* Visual: mock inaccessible screen with Thea scan overlay */}
+          {/* Visual: mock inaccessible screen with cupcake scan overlay */}
           <div className="problem-visual reveal" ref={visualRef} aria-hidden="true">
             <div className="pv-screen">
               <div className="pv-topbar">
@@ -81,10 +81,10 @@ export function Problem() {
                 <div className="pv-scan-line" />
               </div>
 
-              {/* Thea overlay badge */}
-              <div className="pv-thea-badge">
-                <div className="pv-thea-dot" />
-                <span>Thea is reading this screen</span>
+              {/* cupcake overlay badge */}
+              <div className="pv-cupcake-badge">
+                <div className="pv-cupcake-dot" />
+                <span>cupcake is reading this screen</span>
               </div>
             </div>
           </div>

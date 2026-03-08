@@ -25,7 +25,7 @@ const scenarios: Scenario[] = [
     },
     after: {
       steps: [
-        '"Hey Thea, read my latest email"',
+        '"Hey cupcake, read my latest email"',
         '"Reply: Sounds good, see you at 3"',
       ],
       time: '30 seconds',
@@ -46,8 +46,8 @@ const scenarios: Scenario[] = [
     },
     after: {
       steps: [
-        '"Thea, fill out this application for me"',
-        'Thea reads each field and asks for your answers',
+        '"cupcake, fill out this application for me"',
+        'cupcake reads each field and asks for your answers',
         '"Submit it"',
       ],
       time: '3 minutes',
@@ -295,13 +295,13 @@ export function Journey() {
         }
       `}</style>
 
-      <section className="journey-section" id="journey" aria-label="Before and after Thea">
+      <section className="journey-section" id="journey" aria-label="Before and after cupcake">
         <div className="container">
           <div className="reveal" ref={sectionRef}>
             <SectionHeader
               tag="BEFORE & AFTER"
-              label="The difference Thea makes"
-              sub="Real tasks. Real time savings. See how Thea transforms everyday computing."
+              label="The difference cupcake makes"
+              sub="Real tasks. Real time savings. See how cupcake transforms everyday computing."
             />
           </div>
 
@@ -322,7 +322,7 @@ export function Journey() {
 
             <div className="journey-comparison" role="tabpanel">
               <div className="journey-col journey-col--before">
-                <span className="journey-col-badge">Without Thea</span>
+                <span className="journey-col-badge">Without cupcake</span>
                 <ol className="journey-steps">
                   {scenario.before.steps.map((step, i) => (
                     <li className="journey-step" key={i}>
@@ -341,7 +341,7 @@ export function Journey() {
               </div>
 
               <div className="journey-col journey-col--after">
-                <span className="journey-col-badge">With Thea</span>
+                <span className="journey-col-badge">With cupcake</span>
                 <ol className="journey-steps">
                   {scenario.after.steps.map((step, i) => (
                     <li className="journey-step" key={i}>

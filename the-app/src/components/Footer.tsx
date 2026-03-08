@@ -5,7 +5,7 @@ export function Footer() {
         <div className="container">
           <div className="footer-inner">
             <div className="footer-brand">
-              <img src="/logo-thea.png" alt="Thea" />
+              <img src="/logo-cupcake.png" alt="cupcake" />
             </div>
             <div className="footer-columns">
               <div>
@@ -40,7 +40,7 @@ export function Footer() {
         <div className="container">
           <div className="footer-bottom-inner">
             <p className="footer-a11y-badge">Built for the blind and low-vision community &mdash; Claude Builder Club Hackathon 2026</p>
-            <p className="footer-copy">&copy; 2026 Thea. All rights reserved.</p>
+            <p className="footer-copy">&copy; 2026 cupcake. All rights reserved.</p>
           </div>
         </div>
       </div>

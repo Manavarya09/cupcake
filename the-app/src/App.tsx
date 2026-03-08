@@ -24,7 +24,7 @@ function App() {
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', fontFamily: 'system-ui', textAlign: 'center', padding: '2rem' }}>
         <div>
           <h1>Browser Only</h1>
-          <p>This website is meant to be viewed in your browser. The Thea desktop app is already installed.</p>
+          <p>This website is meant to be viewed in your browser. The cupcake desktop app is already installed.</p>
         </div>
       </div>
     );

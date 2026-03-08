@@ -127,7 +127,7 @@ export function Platforms() {
           <SectionHeader
             tag="WORKS EVERYWHERE"
             label="One voice, every app"
-            sub="Thea works across your operating system, browsers, and applications."
+            sub="cupcake works across your operating system, browsers, and applications."
           />
         </div>
         <div className="platforms-marquee-wrap reveal" ref={ref}>

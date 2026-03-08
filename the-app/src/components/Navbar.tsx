@@ -22,8 +22,8 @@ export function Navbar() {
   return (
     <nav className={`nav${scrolled ? ' scrolled' : ''}`} role="navigation" aria-label="Main navigation">
       <div className="nav-inner">
-        <a href="#" className="nav-logo" aria-label="Thea home">
-          <img src="/logo-thea-cropped.png" alt="Thea logo" />
+        <a href="#" className="nav-logo" aria-label="cupcake home">
+          <img src="/logo-cupcake-cropped.png" alt="cupcake logo" />
         </a>
         <ul className={`nav-links${menuOpen ? ' open' : ''}`} role="list">
           <li><a href="#features" onClick={closeMenu}>Features</a></li>

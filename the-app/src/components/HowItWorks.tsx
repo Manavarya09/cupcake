@@ -14,7 +14,7 @@ const steps = [
     ),
   },
   {
-    label: 'Thea listens',
+    label: 'cupcake listens',
     desc: 'Your words are captured instantly',
     icon: (
       <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
@@ -35,7 +35,7 @@ const steps = [
   },
   {
     label: 'Reads the page',
-    desc: 'Thea sees and understands the full web page',
+    desc: 'cupcake sees and understands the full web page',
     icon: (
       <svg viewBox="0 0 28 28" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
         <rect x="3" y="3" width="22" height="22" rx="3" />
@@ -78,7 +78,7 @@ export function HowItWorks() {
       <div className="container">
         <SectionHeader
           tag="HOW IT WORKS"
-          label="How Thea works"
+          label="How cupcake works"
           sub="Hold a key, speak naturally, hear the result. Claude AI handles the rest — and always asks before acting on anything important."
         />
         <div className="pipeline reveal" ref={pipelineRef} role="list" aria-label="Pipeline steps">

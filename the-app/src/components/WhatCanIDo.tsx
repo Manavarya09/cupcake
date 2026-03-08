@@ -53,9 +53,9 @@ export function WhatCanIDo() {
               <div className="what-speech">
                 I see a settings page with 3 nav items, a hero section, a sidebar, and 2 content cards. There's a submit button at the bottom right.
               </div>
-              <div className="what-thea-badge">
-                <div className="what-thea-dot" />
-                <span>Thea is reading this screen</span>
+              <div className="what-cupcake-badge">
+                <div className="what-cupcake-dot" />
+                <span>cupcake is reading this screen</span>
               </div>
             </div>
           </div>

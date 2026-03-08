@@ -9,7 +9,7 @@ interface Stat {
 const stats: Stat[] = [
   { number: '100%', label: 'Voice Controlled', desc: 'No keyboard or mouse needed' },
   { number: '5+', label: 'Platforms', desc: 'macOS, Windows, web browsers, and more' },
-  { number: '\u221E', label: 'Possibilities', desc: 'If you can say it, Thea can do it' },
+  { number: '\u221E', label: 'Possibilities', desc: 'If you can say it, cupcake can do it' },
 ];
 
 export function Stats() {

@@ -4,25 +4,25 @@ import { SectionHeader } from './SectionHeader';
 const testimonials = [
   {
     quote:
-      "Before Thea, filling out a simple online form could take me twenty minutes of tab-cycling and guesswork. Now I just say what I need and it's done. I registered for my college courses in under three minutes.",
+      "Before cupcake, filling out a simple online form could take me twenty minutes of tab-cycling and guesswork. Now I just say what I need and it's done. I registered for my college courses in under three minutes.",
     name: 'Marcus J.',
     role: 'College Student',
   },
   {
     quote:
-      "I retired from teaching, not from life. But every website redesign made me feel more and more shut out. Thea gave me back my email, my photo albums, my independence. My grandkids can't believe how fast I reply now.",
+      "I retired from teaching, not from life. But every website redesign made me feel more and more shut out. cupcake gave me back my email, my photo albums, my independence. My grandkids can't believe how fast I reply now.",
     name: 'Dorothy R.',
     role: 'Retired Teacher',
   },
   {
     quote:
-      "I'm a developer who lost most of my sight two years ago. Screen readers helped, but complex IDEs and code review tools were brutal. Thea understands the layout and reads me exactly what I need. I shipped three PRs my first week using it.",
+      "I'm a developer who lost most of my sight two years ago. Screen readers helped, but complex IDEs and code review tools were brutal. cupcake understands the layout and reads me exactly what I need. I shipped three PRs my first week using it.",
     name: 'Amir K.',
     role: 'Software Developer',
   },
   {
     quote:
-      "Running a small business means invoices, spreadsheets, supplier portals — none of them built with accessibility in mind. Thea navigates all of it for me by voice. For the first time in years, I don't need someone looking over my shoulder.",
+      "Running a small business means invoices, spreadsheets, supplier portals — none of them built with accessibility in mind. cupcake navigates all of it for me by voice. For the first time in years, I don't need someone looking over my shoulder.",
     name: 'Linda C.',
     role: 'Business Owner',
   },

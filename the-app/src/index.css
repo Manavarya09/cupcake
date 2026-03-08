@@ -804,8 +804,8 @@ section {
   100% { top: 90%; opacity: 0; }
 }
 
-/* Thea badge overlay */
-.pv-thea-badge {
+/* cupcake badge overlay */
+.pv-cupcake-badge {
   position: absolute;
   bottom: 16px;
   right: 16px;
@@ -819,7 +819,7 @@ section {
   z-index: 3;
 }
 
-.pv-thea-dot {
+.pv-cupcake-dot {
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -827,7 +827,7 @@ section {
   animation: pulseDot 2s ease-in-out infinite;
 }
 
-.pv-thea-badge span {
+.pv-cupcake-badge span {
   font-family: var(--font-mono);
   font-size: 0.65rem;
   text-transform: uppercase;
@@ -1154,7 +1154,7 @@ section {
   100% { top: 90%; opacity: 0; }
 }
 
-.what-thea-badge {
+.what-cupcake-badge {
   position: absolute;
   bottom: 14px;
   right: 14px;
@@ -1168,7 +1168,7 @@ section {
   z-index: 3;
 }
 
-.what-thea-dot {
+.what-cupcake-dot {
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -1181,7 +1181,7 @@ section {
   50% { opacity: 1; transform: scale(1.2); }
 }
 
-.what-thea-badge span {
+.what-cupcake-badge span {
   font-family: var(--font-mono);
   font-size: 0.62rem;
   text-transform: uppercase;

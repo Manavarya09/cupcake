@@ -54,7 +54,7 @@ export function AccessibilityScore() {
         <SectionHeader
           tag="SCORING"
           label="Every site, scored"
-          sub="Thea analyzes accessibility in real-time."
+          sub="cupcake analyzes accessibility in real-time."
           subStyle={{ margin: '0 auto 56px' }}
         />
 

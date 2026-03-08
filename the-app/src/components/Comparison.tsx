@@ -5,42 +5,42 @@ const rows = [
   {
     feature: 'Navigation',
     traditional: 'Linear, element-by-element',
-    thea: 'Contextual, intent-based',
+    cupcake: 'Contextual, intent-based',
   },
   {
     feature: 'Learning Curve',
     traditional: 'Weeks of training',
-    thea: 'Start talking immediately',
+    cupcake: 'Start talking immediately',
   },
   {
     feature: 'Web Compatibility',
     traditional: 'Only ARIA-labelled sites',
-    thea: 'Any website, accessible or not',
+    cupcake: 'Any website, accessible or not',
   },
   {
     feature: 'Screen Understanding',
     traditional: 'Reads labels/ARIA tags only',
-    thea: 'Claude AI sees and reasons about the full page',
+    cupcake: 'Claude AI sees and reasons about the full page',
   },
   {
     feature: 'Voice Feedback',
     traditional: 'Robotic, monotone narration',
-    thea: 'Natural, conversational responses via ElevenLabs',
+    cupcake: 'Natural, conversational responses via ElevenLabs',
   },
   {
     feature: 'Form Filling',
     traditional: 'Manual tab-through every field',
-    thea: 'Automatic, intelligent — even on unlabelled forms',
+    cupcake: 'Automatic, intelligent — even on unlabelled forms',
   },
   {
     feature: 'User Control',
     traditional: 'No safeguards for mistakes',
-    thea: 'Confirms with you before every irreversible action',
+    cupcake: 'Confirms with you before every irreversible action',
   },
   {
     feature: 'Multi-step Tasks',
     traditional: 'Manual, step-by-step',
-    thea: 'Single voice command, narrated throughout',
+    cupcake: 'Single voice command, narrated throughout',
   },
 ];
 
@@ -70,7 +70,7 @@ export function Comparison() {
           border-collapse: collapse;
         }
 
-        .comp-table thead th {
+        .comp-table cupcaked th {
           padding: 20px 24px;
           font-family: var(--font-heading);
           font-size: 0.875rem;
@@ -94,7 +94,7 @@ export function Comparison() {
           border-left: 1px solid var(--border);
         }
 
-        .comp-th-thea {
+        .comp-th-cupcake {
           color: var(--accent-gold);
           background: rgba(200, 155, 60, 0.06);
           border-top: 3px solid var(--accent-gold);
@@ -102,7 +102,7 @@ export function Comparison() {
           border-left: 1px solid var(--border);
         }
 
-        .comp-th-thea-inner {
+        .comp-th-cupcake-inner {
           display: flex;
           align-items: center;
           gap: 10px;
@@ -147,7 +147,7 @@ export function Comparison() {
           border-left: 1px solid var(--border);
         }
 
-        .comp-td-thea {
+        .comp-td-cupcake {
           color: var(--text-primary);
           background: rgba(200, 155, 60, 0.04);
           border-left: 1px solid var(--border);
@@ -235,7 +235,7 @@ export function Comparison() {
           background: #fafafa;
         }
 
-        .comp-card-row--thea {
+        .comp-card-row--cupcake {
           color: var(--text-primary);
           background: rgba(200, 155, 60, 0.04);
           font-weight: 500;
@@ -252,7 +252,7 @@ export function Comparison() {
           padding-top: 1px;
         }
 
-        .comp-card-label--thea {
+        .comp-card-label--cupcake {
           color: var(--accent-gold);
         }
 
@@ -274,23 +274,23 @@ export function Comparison() {
           <SectionHeader
             tag="COMPARISON"
             label="A better way forward"
-            sub="See how Thea compares to traditional assistive technology."
+            sub="See how cupcake compares to traditional assistive technology."
           />
 
           {/* Desktop table */}
           <div className="comp-table-wrap reveal" ref={tableRef}>
             <table className="comp-table">
-              <thead>
+              <cupcaked>
                 <tr>
                   <th className="comp-th-feature">Feature</th>
                   <th className="comp-th-traditional">Traditional Screen Readers</th>
-                  <th className="comp-th-thea">
-                    <span className="comp-th-thea-inner">
-                      Thea <span className="comp-badge">NEW</span>
+                  <th className="comp-th-cupcake">
+                    <span className="comp-th-cupcake-inner">
+                      cupcake <span className="comp-badge">NEW</span>
                     </span>
                   </th>
                 </tr>
-              </thead>
+              </cupcaked>
               <tbody>
                 {rows.map((row, i) => (
                   <tr key={i}>
@@ -301,10 +301,10 @@ export function Comparison() {
                         {row.traditional}
                       </span>
                     </td>
-                    <td className="comp-td-thea">
+                    <td className="comp-td-cupcake">
                       <span className="comp-cell-content">
                         <span className="comp-icon-check" aria-hidden="true">✓</span>
-                        {row.thea}
+                        {row.cupcake}
                       </span>
                     </td>
                   </tr>
@@ -325,11 +325,11 @@ export function Comparison() {
                     {row.traditional}
                   </span>
                 </div>
-                <div className="comp-card-row comp-card-row--thea">
-                  <span className="comp-card-label comp-card-label--thea">Thea</span>
+                <div className="comp-card-row comp-card-row--cupcake">
+                  <span className="comp-card-label comp-card-label--cupcake">cupcake</span>
                   <span className="comp-cell-content">
                     <span className="comp-icon-check" aria-hidden="true">✓</span>
-                    {row.thea}
+                    {row.cupcake}
                   </span>
                 </div>
               </div>

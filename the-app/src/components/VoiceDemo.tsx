@@ -650,12 +650,12 @@ export function VoiceDemo() {
         }
       `}</style>
 
-      <section className="vd-section" id="voice-demo" aria-label="Experience Thea">
+      <section className="vd-section" id="voice-demo" aria-label="Experience cupcake">
         <div className="container">
           <SectionHeader
             tag="EXPERIENCE"
-            label="See Thea in action"
-            sub="Click a command below to watch Thea respond in real time."
+            label="See cupcake in action"
+            sub="Click a command below to watch cupcake respond in real time."
             subStyle={{ margin: '0 auto 56px' }}
           />
 
@@ -694,7 +694,7 @@ export function VoiceDemo() {
               {phase === 'thinking' && (
                 <div className="vd-fade-enter" key="thinking" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 14 }}>
                   <div className="vd-thinking">
-                    <span style={{ marginRight: 8 }}>Thea is thinking</span>
+                    <span style={{ marginRight: 8 }}>cupcake is thinking</span>
                     <span className="vd-thinking-dot" />
                     <span className="vd-thinking-dot" />
                     <span className="vd-thinking-dot" />

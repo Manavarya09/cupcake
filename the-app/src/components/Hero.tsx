@@ -37,8 +37,8 @@ export function Hero() {
 
       <div className="hero-layout">
         <img
-          src="/logo-thea.png"
-          alt="Thea"
+          src="/logo-cupcake.png"
+          alt="cupcake"
           className="hero-logo reveal"
           ref={logoRef}
         />
@@ -54,7 +54,7 @@ export function Hero() {
                 "Open my email and read the latest message from Dr. Patel."
               </div>
               <div className="mini-msg mini-msg-agent">
-                <span className="mini-msg-label">Thea</span>
+                <span className="mini-msg-label">cupcake</span>
                 Opening Gmail… Found it. Dr. Patel says your appointment is confirmed for tomorrow at 2 PM. Would you like to reply?
               </div>
             </div>
