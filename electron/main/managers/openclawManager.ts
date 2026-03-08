@@ -326,7 +326,7 @@ class OpenClawManager {
           this.sleep(1500).then(() => this.checkPort()).then((isUp) => {
             if (isUp) {
               this.setStatus('ready');
-              this.startHealthCheck();
+              this.starcupcakelthCheck();
               openclawClient.preconnect().catch(() => {});
             } else {
               this.retryCount++;
@@ -378,7 +378,7 @@ class OpenClawManager {
 
         if (response) {
           this.setStatus('ready');
-          this.startHealthCheck();
+          this.starcupcakelthCheck();
           openclawClient.preconnect().catch(() => {});
           return;
         }
@@ -388,7 +388,7 @@ class OpenClawManager {
         const isUp = await this.checkPort();
         if (isUp) {
           this.setStatus('ready');
-          this.startHealthCheck();
+          this.starcupcakelthCheck();
           openclawClient.preconnect().catch(() => {});
           return;
         }
@@ -399,7 +399,7 @@ class OpenClawManager {
 
     if (this.process) {
       this.setStatus('ready');
-      this.startHealthCheck();
+      this.starcupcakelthCheck();
     }
   }
 
@@ -414,7 +414,7 @@ class OpenClawManager {
     });
   }
 
-  private startHealthCheck(): void {
+  private starcupcakelthCheck(): void {
     this.stopHealthCheck();
     this.healthCheckInterval = setInterval(async () => {
       if (!this.process || this.isShuttingDown) {
