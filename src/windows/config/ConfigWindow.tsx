@@ -384,7 +384,7 @@ export default function ConfigWindow() {
         }}
       >
         <div style={{ textAlign: 'center' }}>
-          <h1 style={{ fontSize: 18, fontWeight: 700, margin: 0, letterSpacing: '-0.02em', color: '#1a1a1e' }}>Thea</h1>
+          <h1 style={{ fontSize: 18, fontWeight: 700, margin: 0, letterSpacing: '-0.02em', color: '#1a1a1e' }}>cupcake</h1>
           <p style={{ fontSize: 11, color: '#6B7280', margin: '2px 0 0 0' }}>Voice-first AI assistant</p>
         </div>
       </div>

@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { ipc } from '../../lib/ipc';
 import WaveformView from './components/WaveformView';
 import type { SightlineState, ChatMessage, AutomationStep } from '../../../shared/types';
-import logoSrc from '../../../logo-thea.png';
+import logoSrc from '../../../logo-cupcake.png';
 
 // ── Icons ──
 

@@ -29,7 +29,7 @@ function App() {
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', fontFamily: 'system-ui', textAlign: 'center', padding: '2rem' }}>
         <div>
           <h1>Desktop App Only</h1>
-          <p>This application requires the Thea desktop app. Please download it to continue.</p>
+          <p>This application requires the cupcake desktop app. Please download it to continue.</p>
         </div>
       </div>
     );
