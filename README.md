@@ -536,7 +536,7 @@ Cupcake stands on the shoulders of incredible open-source projects:
 
 ---
 
-## 🎯 Our Vision
+##  Our Vision
 
 Cupcake is more than an app—it's a movement toward digital accessibility for all. By combining voice technology, AI, and thoughtful design, we're making the web a place where everyone can thrive, regardless of sight.
 
